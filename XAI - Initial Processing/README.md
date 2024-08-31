@@ -1,4 +1,8 @@
-# XAI
-The significance of Explainable Artificial Intelligence (XAI) has soared in today's landscape of intricate machine learning models. As AI systems become more sophisticated, their inner workings often appear opaque and challenging to decipher.
-XAI addresses this challenge by imbuing artificial intelligence with the ability to articulate its objectives, logic, and decision-making processes in a comprehensible manner. This facet of AI is instrumental in fostering trust among human users. 
-This research aims to propel the field of XAI forward by developing practical tools and generating insights for creating interpretable deep learning models. Additionally, the project is dedicated to advocating for responsible and transparent AI practices. The overarching goal is to empower not only the research community but also wider audiences by enhancing their comprehension of AI and bolstering its reliability.
+# Initial Processing
+Building on the strengths of existing XAI solutions while addressing their limitations, this project proposes a novel approach to making CNNs more interpretable. The core idea is to leverage a combination of graph-based methods and hierarchical clustering techniques to create a more transparent and structured understanding of model behavior.
+
+The approach begins by representing the relationships between different layers of the CNN as a graph, where nodes represent layers or features, and edges represent connections or dependencies. This graph-based representation allows for the application of established algorithms from graph theoryץ The algorithm generates three alternative hierarchies:
+
+●	Union-Find on an Undirected Graph: Implements a union-find algorithm with pruning based on probability-weighted edges, designed to streamline the connectivity analysis.
+●	Hierarchical Clustering: Executes hierarchical clustering on an undirected graph, utilizing complementary probability-based weights and the shortest-path metric to define clusters.
+●	Strongly-Connected Components: Constructs a directed graph, applying pruning techniques based on probability-weighted edges to identify and analyze strongly connected components.
