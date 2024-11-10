@@ -8,3 +8,5 @@ The approach begins by representing the relationships between different layers o
 ●	Hierarchical Clustering: Executes hierarchical clustering on an undirected graph, utilizing complementary probability-based weights and the shortest-path metric to define clusters.
 
 ●	Strongly-Connected Components: Constructs a directed graph, applying pruning techniques based on probability-weighted edges to identify and analyze strongly connected components.
+
+The models are trained using the ImageNet1K Medium Test - 10K dataset (link - https://www.kaggle.com/datasets/kerrit/imagenet1kmediumtest-10k), which provides a robust basis for analysis and explainability in CNN models.
